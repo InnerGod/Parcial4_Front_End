@@ -1,0 +1,70 @@
+
+#footer{
+  background-color: rgb(205, 236, 235);
+}
+
+
+body{
+  background-color: rgb(223, 238, 235);
+}
+
+h1{
+  color: rgb(182, 184, 113);
+}
+
+
+h2{
+  color: rgb(42, 197, 151);
+}
+
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+  background-color: rgb(172, 236, 222);
+  border-color: black;
+  
+}
+
+
+table > form{
+  width: 90%;
+  
+}
+
+.logo{
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+.content{
+  color: brown;
+}
+
+.contact-info{
+  text-align: center;
+}
+
+.formulario__mensaje-exito-activo {
+display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+color: #1ed12d;
+opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+color: #bb2929;
+opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+border: 3px solid #bb2929;
+}
